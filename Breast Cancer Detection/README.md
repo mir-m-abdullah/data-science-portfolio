@@ -1,18 +1,45 @@
-# Breast Cancer Classification using Logistic Regression
+# Breast Cancer Prediction
 
-## Overview
-In this project, we build a machine learning model to classify breast cancer tumors as either benign or malignant based on several features. We use logistic regression as our model and fine-tune its hyperparameters using randomized search cross-validation. We then evaluate our final model's performance using metrics like accuracy, precision, recall, and F1 score.
+## Introduction
 
-## Data
-The dataset we use is the Breast Cancer Wisconsin Diagnostic dataset, which contains 569 samples of tumor biopsies with 30 features each. The target variable is a binary classification of the tumor as either malignant or benign.
+This project aims to determine the accuracy of predicting whether a patient's breast cancer is malignant or benign. We will be using the Breast Cancer Wisconsin (Diagnostic) Data Set from Kaggle, which consists of 569 samples of malignant and benign breast cancer tumor observations. We will apply machine learning algorithms to this dataset and select the one that gives the best accuracy and precision in predicting the diagnosis of breast cancer.
 
-## Model Training and Evaluation
-We begin by exploring and visualizing the data to gain insights. We then split the data into training and testing sets and use logistic regression as our model, achieving an accuracy of 96.49%. We evaluate our model's performance using a confusion matrix and calculate metrics like precision, recall, and F1 score.
+## Data Source
 
-We then fine-tune our model's hyperparameters using randomized search cross-validation and evaluate its performance again. Our final model achieves an accuracy of 97.37%, with improved F1 score and the same recall.
+The dataset used in this project is available on Kaggle and can be found at: https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data. The data is in CSV format and contains the following columns:
 
-## Predicting New Observations
-We can use our final model to predict whether new observations are benign or malignant. To do this, we transform the new observations using the same transformation we used on our training data, then input them into our final model to get a prediction.
+* ID number
+* Diagnosis (M = malignant, B = benign)
+* 30 features with numerical values
+
+## Methodology
+
+We will follow these steps to build our machine learning model:
+
+1. Importing necessary libraries and dataset
+2. Exploratory data analysis (EDA)
+3. Data preprocessing
+4. Splitting the dataset into train and test sets
+5. Training and evaluating the model
+6. Tuning hyperparameters for improved performance
+7. Finalizing the model and making predictions on new data
+
+## Libraries Used
+
+The following libraries were used in this project:
+
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+
+## Results
+
+After performing exploratory data analysis and preprocessing the data, we applied two machine learning algorithms: logistic regression and random forest. Based on the evaluation metrics and cross-validation results, it appears that our logistic regression model performed slightly better than the random forest model. While the random forest model had a high accuracy score of 0.96, its precision score was perfect (1.00) while its recall score was relatively low (0.88), indicating that the model had a higher false negative rate. On the other hand, the logistic regression model had high scores for all evaluation metrics, with an accuracy of 0.97, a precision of 0.98, and a recall of 0.95.
+
+In addition, the logistic regression model is a simpler model compared to the random forest model, which could potentially result in better generalization and interpretation. Therefore, we decided to finalize our model as logistic regression.
 
 ## Conclusion
-This project demonstrates the use of logistic regression and hyperparameter tuning for binary classification tasks. The model we developed can be applied in the real world to help diagnose breast cancer and assist medical professionals in making informed decisions.
+
+In conclusion, we were able to build a machine learning model using logistic regression to predict the diagnosis of breast cancer with an accuracy of 98.25%. The model could potentially be used by healthcare professionals to make more accurate predictions and improve patient outcomes.
