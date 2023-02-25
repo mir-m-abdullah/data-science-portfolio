@@ -2,7 +2,6 @@
 
 Repository containing portfolio of data science projects completed by me for academic, self learning, and hobby purposes. Presented in the form of Jupyter notebooks.
 
-# Contents
+# Projects
 
-* ##**Machine Learning**##
- * asd
+* [Breast Cancer Classification with Machine Learning]([https://pages.github.com/](https://github.com/mir-m-abdullah/data-science-portfolio/tree/main/Breast%20Cancer%20Detection)): 
