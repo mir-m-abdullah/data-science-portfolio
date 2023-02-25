@@ -36,7 +36,7 @@ The following libraries were used in this project:
 
 ## Results
 
-After performing exploratory data analysis and preprocessing the data, we applied two machine learning algorithms: logistic regression and random forest. Based on the evaluation metrics and cross-validation results, it appears that our logistic regression model performed slightly better than the random forest model. While the random forest model had a high accuracy score of 0.96, its precision score was perfect (1.00) while its recall score was relatively low (0.88), indicating that the model had a higher false negative rate. On the other hand, the logistic regression model had high scores for all evaluation metrics, with an accuracy of 0.97, a precision of 0.98, and a recall of 0.95.
+After performing exploratory data analysis and preprocessing the data, we applied two machine learning algorithms: logistic regression and random forest. Based on the evaluation metrics and cross-validation results, it appears that our logistic regression model performed slightly better than the random forest model.
 
 In addition, the logistic regression model is a simpler model compared to the random forest model, which could potentially result in better generalization and interpretation. Therefore, we decided to finalize our model as logistic regression.
 
