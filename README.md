@@ -4,5 +4,5 @@ Repository containing portfolio of data science projects completed by me for aca
 
 # Contents
 
-* ##**##Machine Learning**##
+* ##**Machine Learning**##
  * asd
