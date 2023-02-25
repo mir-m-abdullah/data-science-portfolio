@@ -4,4 +4,4 @@ Repository containing portfolio of data science projects completed by me for aca
 
 # Projects
 
-* [Breast Cancer Classification with Machine Learning]([https://pages.github.com/](https://github.com/mir-m-abdullah/data-science-portfolio/tree/main/Breast%20Cancer%20Detection)): 
+* [Breast Cancer Classification with Machine Learning](https://github.com/mir-m-abdullah/data-science-portfolio/tree/main/Breast%20Cancer%20Detection): 
